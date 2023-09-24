@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Github Developer Search</title>
+    <link rel="stylesheet" href="resources/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="shortcut icon"
+      href="resources/images/github.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div>
+      <header>
+        <h1>Github Developer Search</h1>
+
+        <div class="container my-20 search">
+          <input
+            placeholder="Write a username..."
+            type="text"
+            id="input-search"
+          />
+          <button id="btn-search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="info-user display-flex">
+          <img
+            id="image-profile"
+            src="resources/images/placeholder.jpg"
+            alt="placeholder"
+          />
+          <div class="display-column-align-center">
+            <h2 id="name">Name</h2>
+            <span>
+              <a
+                id="username"
+                href="https://github.com/codingw3"
+                target="_blank"
+                >@Username</a
+              >
+            </span>
+            <p id="date-creation" class="my-20">Date</p>
+          </div>
+        </div>
+
+        <p id="description" class="my-20">Description</p>
+
+        <div class="container info-github">
+          <div>
+            <p>Repositories</p>
+            <p id="number-repositories">0</p>
+          </div>
+          <div>
+            <p>Followers</p>
+            <p id="number-followers">0</p>
+          </div>
+          <div>
+            <p>Following</p>
+            <p id="number-following">0</p>
+          </div>
+        </div>
+
+        <div class="display-flex other-info mt-20">
+          <div class="column">
+            <p>
+              <i class="fa-solid fa-location-dot"></i>
+              <span id="location">Location</span>
+            </p>
+          </div>
+          <div class="column">
+            <p>
+              <i class="fa-brands fa-twitter"></i>
+              <a id="twitter" target="_blank">Twitter</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="display-flex other-info mt-20">
+          <div class="column">
+            <i class="fa-solid fa-link"></i>
+            <a id="link" href="https://github.com/codingw3" target="_blank"
+              >Link</a
+            >
+          </div>
+          <div class="column">
+            <i class="fa-solid fa-building"></i>
+            <span id="company">Company</span>
+          </div>
+        </div>
+      </main>
+
+      <footer class="mt-20">
+        &copy;
+        <a href="https://github.com/codingw3" target="_blank">CodingW3</a>
+      </footer>
+    </div>
+
+    <script src="resources/js/script.js"></script>
+  </body>
+</html>

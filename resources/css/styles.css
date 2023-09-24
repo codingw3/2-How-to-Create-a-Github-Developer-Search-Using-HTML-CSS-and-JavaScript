@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap");
+
+:root {
+  --white: #d0cccc;
+  --gray: #2e2e2e;
+  --green: #3cb371;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--gray);
+}
+
+body {
+  background-color: var(--green);
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  max-width: 90%;
+  margin: auto;
+  font-size: 1.1em;
+}
+
+.container {
+  background-color: var(--white);
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+  box-shadow: 5px 5px 10px var(--gray);
+}
+
+.my-20 {
+  margin: 20px 0;
+}
+
+.search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.search input,
+.search button {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.search input {
+  font-size: 1.1em;
+  border: none;
+  width: 100%;
+  outline: var(--white) solid 1px;
+  transition: outline 0.3s;
+}
+
+.search input:focus {
+  outline: var(--gray) solid 1px;
+}
+
+.search button {
+  font-size: 1.1em;
+  transition: border 0.3s;
+  background-color: var(--green);
+  border: 1px solid var(--green);
+}
+
+.search button:hover {
+  cursor: pointer;
+  border: 1px solid var(--gray);
+}
+
+.info-user {
+  flex-direction: row;
+}
+
+.info-user img {
+  width: 30%;
+  height: 30%;
+  border-radius: 10px;
+}
+
+.display-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.display-column-align-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.info-github {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  background-color: var(--green);
+  box-shadow: none;
+}
+
+.info-github div p:first-child {
+  margin-bottom: 10px;
+}
+
+.info-github div p:nth-child(2) {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.column {
+  flex: 1;
+}
+
+.footer {
+  text-align: center;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .display-flex {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
