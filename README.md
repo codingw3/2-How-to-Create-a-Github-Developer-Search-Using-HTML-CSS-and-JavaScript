@@ -1,6 +1,6 @@
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fcodingw3%2F2-How-to-Create-a-Github-Developer-Search-Using-HTML-CSS-and-JavaScript&countColor=%233cb371)
 
-# How to Create a Github Developer Search Using HTML CSS and JavaScript
+# Github Developer Researcher | HTML CSS JavaScript
 
 ![Level](https://img.shields.io/badge/Level-Pleno-yellow?style=for-the-badge)
 
