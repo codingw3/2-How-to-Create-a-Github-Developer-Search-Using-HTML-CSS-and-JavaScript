@@ -2,7 +2,7 @@
 
 # Github Developer Researcher | HTML CSS JavaScript
 
-![Level](https://img.shields.io/badge/Level-Pleno-yellow?style=for-the-badge)
+![Level](https://img.shields.io/badge/Level-Senior-red?style=for-the-badge)
 
 - [Video](https://youtu.be/MGF9PcbLN6k)
 - [Demo](https://codingw3.github.io/Video2-Github-Developer-Researcher-HTML-CSS-and-JavaScript)
