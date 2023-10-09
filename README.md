@@ -5,7 +5,7 @@
 ![Level](https://img.shields.io/badge/Level-Pleno-yellow?style=for-the-badge)
 
 - [Video](https://youtu.be/MGF9PcbLN6k)
-- [Demo](https://codingw3.github.io/2-How-to-Create-a-Github-Developer-Search-Using-HTML-CSS-and-JavaScript)
+- [Demo](https://codingw3.github.io/Video2-Github-Developer-Researcher-HTML-CSS-and-JavaScript)
 
 ## Technologies
 ![HTML 5](https://img.shields.io/badge/HTML%205-E34F26?style=for-the-badge&logo=html5&logoColor=white)
